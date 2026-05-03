@@ -387,17 +387,17 @@ footer {
   margin-bottom: 28px;
 }
 
-.page-header {
+.section-header {
   background: var(--color-dark);
   color: var(--color-nav-text);
   padding: 56px 0;
 }
 
-.page-header h1 {
+.section-header h1 {
   margin-bottom: 12px;
 }
 
-.page-header p {
+.section-header p {
   color: #aaa;
   max-width: 520px;
 }
@@ -480,10 +480,6 @@ footer {
   margin-bottom: 14px;
   border-left: 2px solid var(--color-accent);
   padding-left: 12px;
-}
-
-.product-desc.visible {
-  display: block;
 }
 
 .product-actions {
