@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EG Microphones</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div id="site-header"></div>
+
+  <main>
+    <section class="shop-header">
+      <div class="container">
+        <p class="section-label">The Collection</p>
+        <h1>All Microphones</h1>
+        <p>Handbuilt in Malta. Lifetime warranty on every microphone.</p>
+      </div>
+    </section>
+
+    <section class="products-section">
+      <div class="container">
+        <div class="products-grid">
+
+          <div class="product-card">
+            <img src="EG-1.webp" alt="EG-1 Condenser microphone" />
+
+            <div class="product-body">
+              <h3>EG-1 Condenser</h3>
+              <p class="price">€349</p>
+              <p class="product-desc" id="desc-1">
+                The EG-1 is our flagship large-diaphragm condenser microphone. It captures vocals and acoustic instruments with exceptional clarity and warmth.
+              </p>
+              <div class="product-actions">
+                <button class="btn-info" onclick="toggleInfo('desc-1', this)">Info</button>
+                <button class="btn-cart" onclick="addToCart('EG-1 Condenser')">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+
+            <img src="eg-r.jpg" alt="EG-R Ribbon microphone" />
+
+            <div class="product-body">
+              <h3>EG-R Ribbon</h3>
+              <p class="price">€499</p>
+              <p class="product-desc" id="desc-2">
+                The EG-R is our ribbon microphone, giving that classic vintage sound loved by recording artists.
+              </p>
+              <div class="product-actions">
+                <button class="btn-info" onclick="toggleInfo('desc-2', this)">Info</button>
+                <button class="btn-cart" onclick="addToCart('EG-R Ribbon')">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img src="eg-d.jpg" alt="EG-D Dynamic microphone" />
+
+            <div class="product-body">
+              <h3>EG-D Dynamic</h3>
+              <p class="price">€229</p>
+              <p class="product-desc" id="desc-3">
+                The EG-D is a dynamic microphone built for live performance and studio use. Very
+                durable with a iron body made in Malta. Perfect for loud guitars, snare drums, live vocals. Supercardioid pattern.
+              </p>
+              <div class="product-actions">
+                <button class="btn-info" onclick="toggleInfo('desc-3', this)">Info</button>
+                <button class="btn-cart" onclick="addToCart('EG-D Dynamic')">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="eg-usb.png" alt="EG-USB Podcast microphone" />
+
+            <div class="product-body">
+              <h3>EG-USB Podcast</h3>
+              <p class="price">€189</p>
+              <p class="product-desc" id="desc-4">
+                The EG-USB brings our handcrafted quality to the normal person. Perfect for podcasters, streamers,
+                and home studio owners. Connects directly via USB-B (with USB-C/USB-Mini versions on request) no audio interface needed. Has realtime 0 latency headphone
+                monitoring, a cardioid pattern, and the same capsule found in the legendary Neumann TLM 103 (a €1000 mic).
+              </p>
+              <div class="product-actions">
+                <button class="btn-info" onclick="toggleInfo('desc-4', this)">Info</button>
+                <button class="btn-cart" onclick="addToCart('EG-USB Podcast')">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
