@@ -28,9 +28,9 @@ function addToCart(product) {
 }
 
 function toggleInfo(descId, btn) {
-  var desc = document.getElementById(descId);
-  desc.classList.toggle('visible');
-  btn.textContent = desc.classList.contains('visible') ? 'Hide Info' : 'Info';
+  const $desc = $(`#${descId}`);
+  $desc.toggle();
+  btn.textContent = $desc.is(':visible') ? 'Hide Info' : 'Info';
 }
 
 $(document).ready(function() {

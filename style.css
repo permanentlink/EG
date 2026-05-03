@@ -367,14 +367,6 @@ footer {
   margin-bottom: 32px;
 }
 
-.product-card-mini {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius);
-  padding: 20px;
-  text-align: center;
-}
-
 .product-price {
   font-family: var(--font-heading);
   font-size: 1.1rem;
@@ -382,25 +374,8 @@ footer {
   font-weight: 700;
 }
 
-.craftsmanship {
-  background: var(--color-dark);
-  color: var(--color-nav-text);
-}
-
-.craft-inner {
-  max-width: var(--max-width);
-  margin: 0 auto;
-  padding: 72px 24px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 64px;
-  align-items: center;
-}
-
-.craft-image img {
-  width: 100%;
+.craft-image {
   border-radius: var(--radius);
-  object-fit: cover;
 }
 
 .craft-text h2 {
@@ -412,17 +387,17 @@ footer {
   margin-bottom: 28px;
 }
 
-.shop-header {
+.page-header {
   background: var(--color-dark);
   color: var(--color-nav-text);
   padding: 56px 0;
 }
 
-.shop-header h1 {
+.page-header h1 {
   margin-bottom: 12px;
 }
 
-.shop-header p {
+.page-header p {
   color: #aaa;
   max-width: 520px;
 }
@@ -530,20 +505,6 @@ footer {
   }
 }
 
-.gallery-header {
-  background: var(--color-dark);
-  color: var(--color-nav-text);
-  padding: 56px 0;
-}
-
-.gallery-header h1 {
-  margin-bottom: 12px;
-}
-
-.gallery-header p {
-  color: #aaa;
-}
-
 .gallery-grid-section {
   padding: 64px 0;
   background: var(--color-surface);
@@ -560,21 +521,6 @@ footer {
   border-radius: var(--radius);
   border: 1px solid var(--color-border);
   aspect-ratio: 4/3;
-}
-
-.contact-header {
-  background: var(--color-dark);
-  color: var(--color-nav-text);
-  padding: 56px 0;
-}
-
-.contact-header h1 {
-  margin-bottom: 12px;
-}
-
-.contact-header p {
-  color: #aaa;
-  max-width: 480px;
 }
 
 .contact-section {
